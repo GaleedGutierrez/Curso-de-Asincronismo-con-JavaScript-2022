@@ -10,7 +10,7 @@ async function fetchData (urlApi: string) {
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'cf44d0c145mshbeb547b9fcfa00fp1d2c44jsn4feb206823ae',
+		'X-RapidAPI-Key': '',
 		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
 	}
 };
