@@ -17,7 +17,7 @@ const options = {
 
 const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC55-mxUj5Nj3niXFReG44OQ&part=snippet%2Cid&order=date&maxResults=9';
 
-// const content = document.getElementById('content') as HTMLElement;
+const content = document.getElementById('content') as HTMLElement;
 
 
 (async () => {
@@ -42,7 +42,7 @@ const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UC55-mxUj5Nj3ni
                 </div>
             </div>
         `).slice(0, 4).join('')}`;
-        // content.innerHTML = view;
+        content.innerHTML = view;
     } catch (error) {
         console.error(error);
     }
