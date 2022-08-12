@@ -4,7 +4,8 @@
   "description": "Curso de asincronismo con JavaScript 2022",
   "main": "index.js",
   "scripts": {
-    "callback": "node ./dist/callback/challenge.js"
+    "callback": "node ./dist/callback/challenge.js",
+    "deply": "gh-pages -d ./proyecto-cv/src"
   },
   "repository": {
     "type": "git",
